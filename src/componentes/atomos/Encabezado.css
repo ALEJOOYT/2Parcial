@@ -1,0 +1,14 @@
+.contenedor-encabezado .encabezado .imagen {
+    width: 144px;
+    height: 100px;
+}
+
+.contenedor-encabezado .encabezado .boton {
+    position: relative;
+    top: -40px;
+    left: 30px;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

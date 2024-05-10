@@ -1,0 +1,9 @@
+.contenedor-tarjeta .tarjeta {
+    background-color: #414865;
+
+    width: 150px;
+    height: 190px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0px;
+}

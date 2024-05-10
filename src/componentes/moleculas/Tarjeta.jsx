@@ -1,4 +1,4 @@
-//import './Tarjeta.css'
+import './Tarjeta.css'
 import Descripcion from '../atomos/Descripcion.jsx'
 import Encabezado from '../atomos/Encabezado.jsx'
 function Tarjeta() {

@@ -1,4 +1,4 @@
-//import './Descripcion.css'
+import './Descripcion.css'
 
 function Descripcion() {
     return (

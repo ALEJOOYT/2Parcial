@@ -1,4 +1,4 @@
-//import './Descripcion.css'
+import './Encabezado.css'
 import imagen from '../../assets/imagenes/ImagenPrincipal.png'
 
 function Descripcion() {
