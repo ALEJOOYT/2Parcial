@@ -5,8 +5,8 @@ function Descripcion() {
         <>
             <div className='contenedor-descripcion'>
                 <div className='descripcion-general'>
-                    <h1 className='titulo'>Terapia 2</h1>
-                    <h1 className='descripcion'>Ejercicios pelvicos</h1>
+                    <a className='titulo'>Terapia 2</a><br />
+                    <a className='descripcion'>Ejercicios pelvicos</a>
                 </div>
             </div>
         </>
@@ -14,4 +14,3 @@ function Descripcion() {
 }
 
 export default Descripcion
-

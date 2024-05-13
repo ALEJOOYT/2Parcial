@@ -1,14 +1,17 @@
 .contenedor-descripcion {
     position: relative;
     top: -40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contenedor-descripcion .descripcion-general .titulo {
-    size: 400;
-    font-size: 15px;
+    color: white;
+    font-size: 19px;
 }
 
 .contenedor-descripcion .descripcion-general .descripcion {
-    font-size: 10px;
-    size: 400;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
 }

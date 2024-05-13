@@ -1,14 +1,36 @@
-.contenedor-encabezado .encabezado .imagen {
-    width: 144px;
-    height: 100px;
+.contenedor-encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contenedor-encabezado .encabezado .boton {
-    position: relative;
-    top: -40px;
-    left: 30px;
-    background-color: #FFFFFF;
-    height: 40px;
+.contenedor-encabezado .encabezado .imagen {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.boton {
     width: 40px;
+    height: 40px;
     border-radius: 50%;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: -25px;
+    left: 65%;
+}
+
+.boton::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%) rotate(90deg);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 15px solid #3C4158;
 }
